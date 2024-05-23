@@ -1,0 +1,1235 @@
+/* -------------- color --------------------- */
+.pinsign-border-purple {
+    border: solid 1px #7C49F6;
+    box-shadow: none;
+}
+.pinsign-color-text-gray3 {
+    color: #666666;
+}
+
+.pinsign-color-text-placeholder {
+    color: #999999;
+    /* width: 28%; */
+    line-height: 35px;
+    font-size: 8pt;
+    text-align: right;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+    color: #999;
+    line-height: 28px;
+    /*margin-top: -70px;*/
+}
+
+.pinsign-color-bg-pinpad-large {
+    background-color: #F2F2F2;
+    width: 100% !important;
+
+}
+
+/* ----------------- pinpad -------------------- */
+
+.pinsign-pinpad-mask-container-large {
+    /*width: 68%;*/
+    width:180px;
+}
+
+.pinsign-pinpad-mask-large {
+    width: 23px;
+    height: 23px;
+    margin: 2px 2px 5px 2px;
+}
+
+
+/* -------------pinsign pinpad embed ------------------------ */
+.pinsign-pinpad-embed-container {
+	width: 434px;
+    /*width: 444px;*/
+    height: 150px;
+    border-top: solid 1px #CCCCCC;
+    padding-top: 9px;
+    padding-bottom: 10px;
+    box-sizing: border-box;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+	position:relative;
+
+}
+
+.pinsign-pinpad-embed-container > .pinsign-pinpad-embed-body {
+    /*float: left;*/
+    width: 280px;
+   /* height: 100%;*/
+    margin:0 auto;
+}
+
+.pinsign-pinpad-embed-container > .pinsign-pinpad-embed-command-bar {
+    float: left;
+    /*height: 100%;*/
+    width: 100%;
+    margin-top: 100px;
+	position: absolute;
+
+}
+
+.pinsign-pinpad-embed-container .pinsign-pinpad-embed-command-button {
+    height: 50%;
+    line-height: 46px;
+    font-size: 12pt;
+    /* font-weight: bold; */
+    cursor: pointer;
+    margin: -6px auto 0px auto;
+    width: 50%;
+    text-align: center;
+    float: left;
+}
+/* --------------------------pinsign common -------------------------*/
+.pinsign-hide-wrap {
+    display: none;
+}
+
+.pinsign-header {
+    height: 50px;
+    width: 100%;
+    display: inline-block;
+}
+
+.pinsign-body {
+    width: 100%;
+    /* height: 280px; */
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 10px;
+    display:none;
+}
+.pinsign-page {
+    width: 100%;
+    /* height: 280px; */
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 10px;
+    display:none;
+}
+
+.pinsign-body-pulldown {
+    padding-top: 20px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.pinsign-common-title {
+    width: 75%;
+    height: 45px;
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+.pinsign-common-title {
+    float: left;
+}
+
+.pinsign-common-title-info {
+    width: 20%;
+    float: right;
+    height: 100%;
+    line-height: 45px;
+    vertical-align: bottom;
+    font-size: 10pt;
+    text-align: right;
+}
+
+.pinsign-common-message {
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+.pinsign-common-message-pullup {
+    height: 21px;
+    line-height: 21px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+.pinsign-common-border {
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.pinsign-common-dialog {
+    -moz-box-sizing: border-box;
+    /*
+    display:none;
+    box-sizing: border-box;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    */
+    padding: 13px 13px 0px 13px;
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    background-color: white;
+
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -o-user-select: none;
+
+}
+
+.pinsign-form-control-container {
+    box-sizing: border-box;
+    margin-top: 10px;
+    border-bottom: 1px solid lightgray;
+}
+
+.pinsign-form-control-container > p > label  {
+    width:100%;
+}
+.pinsign-form-control-container .pinsign-form-control-checkbox {
+    font-size: 10pt;
+    /*margin-top: 5px;
+    margin-bottom: 10px;*/
+}
+
+.pinsign-form-control-noborder {
+    border-bottom: none;
+}
+
+.pinsign-form-control-underline {
+    text-decoration: underline;
+}
+
+#pinsign-userauth-dialog .pinsign-form-control-container {
+    height: 35px;
+    border-bottom: 1px dotted lightgray;
+    cursor: pointer;
+}
+
+#pinsign-userauth-dialog .pinsign-form-control-container:last-child {
+    border-bottom: none;
+}
+
+.pinsign-form-control-container > .pinsign-label {
+    font-size: 15px;
+    width: 110px;
+    display: inline-block;
+    font-weight: bolder;
+    line-height: 35px;
+    margin-right: 15px;
+	color:#4d4d4d;
+}
+
+.pinsign-form-control-container > .pinsign-input {
+    font-size: 10pt;
+    line-height: 30px;
+    width: 300px;
+    display: inline-block;
+    border: none;
+    height: 30px;
+    background-color: transparent;
+    padding-left:5px;
+    padding-right:5px;
+}
+
+@media screen and (max-width: 600px) {
+    .pinsign-form-control-container > .pinsign-label {
+        width: 85px;
+    }
+
+    .pinsign-form-control-container > .pinsign-input {
+        width: 200px;
+    }
+}
+
+
+.pinsign-form-control-container > .pinsign-input-mid {
+    width: 200px;
+}
+
+.pinsign-req-authnum {
+    background-color: white;
+    border: 1px solid #7C49F6;
+    border-radius: 5px;;
+    height: 27px;
+    line-height: 27px;
+    width: 115px;
+    text-align: center;
+    color: #7C49F6;
+    vertical-align: middle;
+}
+
+div.pinsign-input > span {
+    font-size: 11pt;
+    max-width: 120px;
+    display: inline-block;
+    word-break: break-all;
+    color: lightgrey;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+div.pinsign-input > select {
+    height: 25px;
+    width: 70px;
+    border: none;
+
+}
+
+div.pinsign-input > .pinsign-input-focus {
+    background-color: #E5DBFD;
+}
+
+div.pinsign-input > input {
+    border: none;
+    width: 90px;
+    text-align: center;
+    line-height: 30px;
+    height: 30px;
+    background-color: transparent;
+}
+
+.pinsign-sep {
+    height: 100%;
+    line-height: 30px;
+    width: 15px;
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.pinsign-form-control-container > .pinsign-next {
+    width: 10px;
+    height: 100%;
+    background: url('../img/next-icon.png') no-repeat;
+    float: right;
+}
+
+.pinsign-nav {
+    height: 40px;
+    border-top: solid 1px lightgray;
+}
+
+.pinsign-nav > .pinsign-nav-prev {
+    float: left;
+    height: 100%;
+    line-height: 40px;
+    font-size: 11pt;
+    font-weight: bolder;
+}
+
+.pinsign-nav > .pinsign-nav-next {
+    height: 100%;
+    float: right;
+    line-height: 40px;
+    font-size: 11pt;
+    font-weight: bolder;
+}
+
+.pinsign-nav > .pinsign-nav-disabled {
+    color: #CCCCCC;
+}
+
+/* ------------------- pinsign-item ----------------------------------------------*/
+/* ------------------- pinsign-login -------------------------------------------- */
+#pinsign-login-dialog {
+    width: 100%;
+    height: 100%;
+}
+#pinsign-login-dialog .pinsign-body {
+    display:none;
+}
+
+#pinsign-login-dialog .pinpad-mask-target {
+    display: inline-block;
+    width: 65%;
+    float: left;
+}
+
+#pinsign-login-dialog .pinsign-item-container {
+
+}
+
+#pinsign-login-dialog .pinsign-suggest-body .pinsign-common-message {
+    text-align:center;
+    height:150px;
+    line-height:150px;
+}
+.pinsign-suggest-body{
+    display:none;
+}
+
+.pinsign-login-contents {
+    border: solid 1px #B3B3B3;
+    width: 100%;
+    height: 400px;
+}
+
+#pinsign-login-dialog .pinpad-container {
+    /* height: 35px;
+    border-bottom:solid 1px #B3B3B3;*/
+    display: none;
+}
+
+/*#pinsign-login-dialog*/
+.pinpad-mask-container {
+    width: 100%;
+    display: inline-block;
+	margin-top:10px;
+}
+
+/*#pinsign-login-dialog*/
+.pinpad-mask-container .pinpad-mask-label {
+    width: 28%;
+    line-height: 35px;
+    font-size: 8pt;
+    text-align: right;
+    display: inline-block;
+    float: left;
+    margin-right: 20px;
+	color: #666666;
+    line-height: 28px;
+}
+
+/*#pinsign-login-dialog*/
+.pinpad-container-fake {
+    height: 30px;
+    border-bottom: solid 1px #939598;
+    margin-top: 40px;
+}
+.pinpad-container-fake1 {
+    height: 30px;
+    border-bottom: solid 1px #939598;
+    margin-top: 30px;
+}
+.pinpad-container-fake2 {
+    height: 30px;
+    border-bottom: solid 1px #939598;
+    margin-top: 16px;
+}
+
+/*#pinsign-login-dialog*/
+.pinpad-container-fake > div {
+    font-size: 9pt;
+    padding-left: 4%;
+    line-height: 25px;
+}
+
+#pinsign-login-dialog > .bottom-margin {
+    height: 225px;
+}
+
+.pinsign-item-container {
+    margin: 40px 5px 15px 5px;
+}
+
+.pinsign-item-container-small-mode {
+    margin: 0px 15px 5px 15px;
+}
+
+.pinsign-item-templete {
+    display: none;
+}
+
+.pinsign-select-item-template {
+    display: none;
+}
+
+.pinsign-item {
+    height: 95px;
+	margin-top:20px;
+}
+
+.pinsign-item-icon {
+    width: 34px;
+    height: 55px;
+    float: left;
+    padding: 5px;
+
+}
+
+.pinsign-item-info {
+    margin: 5px;
+    float: left;
+    height: 100%;
+    width:30%;
+}
+
+.pinsign-select-item > .pinsign-item-info {
+    width:30%;
+}
+
+.pinsign-item-date {
+    margin: 8px 10px 5px 10px;
+    float: right;
+    width: 60px;
+}
+
+.pinsign-select-item > .pinsign-item-date {
+    margin: 5px;
+    float: left;
+    width: 20%;
+}
+
+.pinsign-item-more {
+    margin: 7px 6px 6px 6px;
+    float: right;
+    width: 34px;
+    height: 100%;
+    background: url('../img/pinsign-icon_item_more@2x.png') no-repeat center center;
+    background-size:100%;
+
+}
+
+.pinsign-select-item > .pinsign-item-menu-container {
+    margin: 5px;
+    float: right;
+    /*width: 20%;*/
+    height: 100%;
+    padding-top:15px;
+    padding-bottom:15px;
+    background-image: none;
+}
+.pinsign-sub-menu-container {
+    /*position: absolute;*/
+    right: 55px;
+    /* top: 100px; */
+    height: 30px;
+    overflow: hidden;
+}
+.pinsign-sub-menu-container pinsign-item-image-button {
+    float:left;
+}
+.pinsign-item-more:before {
+    /* content: "\e114";*/
+}
+
+.pinsign-item-info-name {
+    height: 35px;
+    line-height: 35px;
+    padding-top: 6px;
+    font-size: 15pt;
+    font-weight: 600;
+    letter-spacing: -1px;
+}
+.pinsign-item-info-name-login {
+    height: 50%;
+    padding-top: 6px;
+    font-size: 15pt;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.pinsign-item-info-detail {
+    height: 25px;
+    line-height: 25px;
+    font-size: 14px;
+    color: #333;
+    padding-left: 1px;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.pinsign-item-date-title {
+    height: 35px;
+    line-height: 35px;
+    font-size: 12px;
+	letter-spacing: -1.3px;
+
+}
+
+.pinsign-item-date-issue {
+    font-size: 14px;
+    color: #333;
+	letter-spacing: 0.2px;
+    margin-top: 2px;
+}
+.pinsign-item-issueinfo-container {
+    margin-top:5px;
+    margin-bottom:10px;
+    clear:both;
+    height:15px;
+    overflow: auto;
+    width: 200px;
+    overflow:hidden;
+}
+.pinsign-item-issueinfo-container > div {
+    color: #9B9B9B;
+    font-family: "Apple SD Gothic Neo";
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 13px;
+}
+.pinsign-item-issueinfo-container .pinsign-item-profile {
+    float:left;
+}
+.pinsign-item-issueinfo-container .pinsign-item-sep {
+    float:left;
+    height:100%;
+    margin-left:5px;
+    margin-right:5px;
+}
+.pinsign-item-issueinfo-container .pinsign-item-issuer {
+    float:left;
+}
+
+/*  ---------------------------- pinsign -select ---------------------------- */
+
+#pinsign-select-dialog {
+}
+
+.pinsign-select-item-container {
+    border-bottom: dotted 1px lightgrey;
+}
+
+/*
+.pinsign-select-item-container:last-child {
+    border-bottom:none;
+}*/
+.pinsign-select-item {
+    height: 95px;
+    box-sizing: border-box;
+    clear: both;
+    padding: 5px 0px 5px 5px;
+    margin-bottom: 2px;
+    margin-top: 2px;
+}
+
+.pinsign-select-item-last-used {
+    color: #8555f7;
+	font-size:15px !important;
+}
+
+
+.pinsign-select-item .pinsign-item-date-title {
+    font-size: 9pt;
+    height: 35px;
+    line-height: 35px;
+    padding-top: 10px;
+}
+
+.pinsign-select-item .pinsign-item-date-issue {
+    font-size: 14px;
+    font-weight: normal;
+    height: 50%;
+}
+
+.pinsign-select-item .pinsign-item-info-name {
+    padding-top: 10px;
+    height: 35px;
+    line-height: 35px;
+	font-size:18px !important;
+}
+
+.pinsign-select-item .pinsign-item-info-detail {
+    font-size: 14px;
+    font-weight: normal;
+    overflow: hidden;
+    word-break: break-all;
+    overflow: hidden;
+    height: 20px;
+    line-height: 20px;
+    white-space: nowrap;
+    color: #333;
+    margin-top: 1px;
+}
+
+.pinsign-select-item:hover {
+   background-color: #f7f7f7;
+	/*background-color:#f0f7fe*/
+}
+
+.pinsign-select-title {
+    height: 35px;
+    box-sizing: border-box;
+    padding: 5px;
+    font-size: 14pt;
+    font-weight: bolder;
+}
+
+.pinsign-select-contents {
+    width: 100%;
+    height: 300px;
+    overflow-y: auto;
+}
+
+.pinsign-connected-action-container {
+    box-sizing: border-box;
+}
+.pinsign-select-action-container {
+    box-sizing: border-box;
+    height: 50px;
+}
+
+.pinsign-select-action-go-issue {
+    font-size: 12pt;
+    float: right;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.pinsign-item-image-button {
+    width: 24px;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-position-y: center;
+    margin-left: 5px;
+}
+
+.pinsign-select-item .pinsign-item-image-button {
+    float: right;
+    height:30px;
+    margin-left: 2px;
+}
+
+
+.pinsign-login-action-container {
+    display: inline-block;
+    height: 22%;
+    width: 100%;
+	margin-top:0px;
+	position:relative;
+}
+
+.pinsign-login-action-container > .pinsign-action-login {
+    top: 50%;
+    position: relative;
+    display: inline-block;
+    width: 48%;
+}
+
+.pinsign-login-action-container > .pinsign-action-cancel {
+    top: 50%;
+    position: relative;
+    display: inline-block;
+
+}
+
+.pinsign-login-action-container > .pinsign-action-cancel > .pinsign-action-button {
+    color: black;
+    text-align: center;
+    font-size: 10pt;
+    background-color: lightgray;
+}
+
+/* ----------------------- pinsign-issue ----------------------------- */
+
+.pinsign-issue-info-container {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    height: 35px;
+    display: inline-block;
+    width: 100%;
+    /*padding-left: 10px;
+    padding-right: 10px;*/
+}
+
+.pinsign-issue-info-container div {
+    display: inline-block;
+    font-size: 11pt;
+    height: 100%;
+    line-height: 35px;
+    overflow: hidden;
+    text-align: center;
+	font-weight:600;
+}
+
+.pinsign-issue-info-container-scale-down {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+    height: 30px;
+
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+.pinsign-issue-info-container-scale-down > div {
+    height: 30px;
+    line-height:30px;
+}
+
+.pinsign-issue-info-container-scale-down > .pinsign-issue-info-prefix {
+    width: 30%;
+}
+
+.pinsign-issue-info-container-scale-down > .pinsign-issue-info-name {
+    width: 25%;
+}
+
+.pinsign-issue-info-prefix {
+    width: 30%;
+    white-space: nowrap;
+    text-overflow: clip;
+}
+
+.pinsign-issue-info-container > .pinsign-issue-info-sep {
+    width: 10px;
+    height: 100%;
+    font-size: 17px;
+    color: #999999;
+}
+
+.pinsign-issue-info-name {
+    width: 26%;
+}
+
+.pinsign-issue-info-name > input {
+    font-size: 14pt;
+    width: 90%;
+    height: 90%;
+    text-align: center;
+    padding-left: 0px;
+	margin-top: 3px;
+	border-radius: 0px;
+	box-shadow: none;
+	-webkit-appearance: none;-moz-appearance: none;appearance: none;border-radius: 0px;
+}
+
+.pinsign-issue-action-container {
+    box-sizing: border-box;
+    /*
+    position: absolute;
+    bottom: 60px;
+    left: 50%;
+    transform: translateX(-50%);
+    */
+    height:120px;
+}
+.pinsign-issue-action-container-pulldown {
+    /* bottom: 10px; */
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+
+}
+
+.pinsign-action-button {
+    width: 150px;
+    height: 42px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 17px;
+    vertical-align: middle;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%); /*translateY(-50%); */
+	border-radius: 2px;
+	font-weight: 600;
+	/*margin-top: -90%;*/
+}
+
+.pinsign-top-margin-0 {
+    margin-top: 0px;
+}
+
+.pinsign-top-margin-1 {
+    margin-top: 10px;
+}
+
+.pinsign-top-margin-2 {
+    margin-top: 20px;
+}
+
+.pinsign-top-margin-3 {
+    margin-top: 30px;
+}
+
+.pinsign-top-margin-4 {
+    margin-top: 40px;
+}
+
+.pinsign-connected-onoff-container {
+    display: inline-block;
+    width: 100%;
+    line-height: 30px;
+    margin-top:10%;
+    visibility: hidden;
+}
+
+.pinsign-connected-onoff-text {
+    width: 50%;
+    float: left;
+    text-align: right;
+    padding-right: 5px;
+    font-size: 13px;
+    color: #333;
+	line-height: 24px;
+}
+
+.pinsign-title {
+    font-size: 14pt;
+    font-weight: bolder;
+    text-align: left;
+    line-height: 27px;
+    height: 27px;
+}
+
+.pinsign-title > span {
+    font-size: 15pt;
+    color: black;
+}
+
+div.pinsign-close-button {
+    width: 21px;
+    height: 21px;
+    background: url("../img/esc.png") 0 0;
+    border: 0;
+    float: right;
+    cursor: pointer;
+}
+
+div.pinsign-close-button:hover {
+    background: url("../img/esc_hover.png") 0 0;
+}
+
+.pinsign-title .pinsign-title-sep {
+    width: 2px;
+    border-left: solid 1px #B3B3B3;
+    margin: 0px 13px 0px 10px;
+}
+
+.pinsign-title span:nth-child(3) {
+    font-weight: normal;
+    font-size: 13pt;
+}
+
+.pinsign-product-version {
+    font-weight: normal;
+    font-size: 9pt;
+    position: absolute;
+    left: 20px;
+    bottom: 15px;
+}
+
+.pinsign-scale-down {
+    transform: scale(.8, .8);
+}
+
+
+.pinsign-h-line {
+    border-top: solid 1px #CCCCCC;
+    padding: 3px;
+    display: none;
+}
+
+.pinsign-animate .pinpad-container {
+    transition: none;
+}
+
+.pinsign-hide {
+    width: 0px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    opacity: 0;
+}
+
+.pinsign-action-issue pinsign-action-button pinsign-color-button-default{
+	padding:10px;
+}
+
+/* dialog font */
+#pinsign-login-dialog * , #pinsign-select-dialog * , #pinsign-issue-dialog * {
+    /* font-family: serif; */
+	/*font-family:Helvetica, sans-serif, arial;*/
+	font-family:'Nanum Gothic', sans-serif;
+}
+
+/*             pin input dialog ------------------------------- */
+.pinsign-action-issue pinsign-action-button pinsign-color-button-default{margin-bottom:26px;}
+#pinsign-input-pin-dialog {
+    width:100%;
+    height:350px;
+}
+#pinsign-change-pin-dialog {
+    width:500px;
+}
+#pinsign-input-pin-dialog > .pinsign-body,
+#pinsign-change-pin-dialog > .pinsign-body
+{
+    padding-left:10px;
+    padding-right:10px;
+}
+
+/* issue list dialog */
+#pinsign-issue-list-dialog .pinsign-issue-list-contents {
+    width:100%;
+    height:200px;
+    overflow-y:auto;
+}
+.pinsign-issue-list-item-container {
+    border-bottom:1px solid lightgray;
+}
+
+.pinsign-action-container {
+    height: 80px;
+    box-sizing: border-box;
+}
+
+#pinsign-authcode-dialog .pinsign-authcode-contents ,
+#start-connected-dialog .pinsign-authcode-contents {
+    width:100%;
+    height:190px;
+    border:solid 1px lightgrey;
+    padding:32px 32px 32px 32px;
+    margin-bottom:20px;
+}
+
+.pinsign-authcode-container {
+    height:55px;
+}
+.pinsign-authcode-container  .pinsign-authcode-label {
+    font-size:18px;
+    font-weight:bolder;
+    height:100%;
+    width:40%;
+    line-height:55px;
+    float:left;
+    text-align:right;
+    padding-right:15px;
+}
+.pinsign-authcode-container  .pinsign-authcode-authcode {
+    font-size:30px;
+    font-weight:bolder;
+    text-align:center;
+    height:100%;
+    width:150px;
+    line-height:55px;
+    float:left;
+    border: solid 1px purple;
+}
+.pinsign-authcode-info {
+    width:100%;
+    height:30px;
+    margin-top: 30px;
+    padding-left: 40px;
+    padding-right: 40px;
+}
+.pinsign-authcode-loading {
+    background: url('../img/pinsign-loading-bar.gif') no-repeat center;
+    width:100%;
+    height:15px;
+    margin-top:15px;
+}
+
+
+.pinsign-confirm-contents {
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-weight: bolder;
+    font-size: 16px;
+    margin-bottom: 60px;
+    margin-top: 30px;
+    border: solid 1px lightgrey;
+}
+.pinsign-divide {
+    width:50%;
+    float:left;
+}
+
+
+
+
+
+#w2ui-alert-dialog {
+    width: 288px;
+    height: auto;
+    background-color: #fff;
+    padding: 10px 0px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+#w2ui-alert-dialog .w2ui-alert-dialog-body {
+    height: 80px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    padding: 4px;
+    text-align: center;
+}
+
+#w2ui-alert-dialog .w2ui-alert-dialog-title {
+    font-size: 16px;
+    height:36px;
+    line-height:36px;
+    font-weight: 600;
+    color: #7C49F6;
+    margin: 0px;
+    display: inline;
+    padding: 0px 6px 4px 19px;
+}
+
+#w2ui-alert-dialog .w2ui-alert-dialog-title-bar {
+    height: 1px;
+    width: 100%;
+    border: 1px solid #D2D2D2;
+}
+
+#w2ui-alert-dialog .w2ui-alert-dialog-body-block {
+    width: 100%;
+    height: auto;
+    text-align: left;
+    padding: 13px 15px;
+    border: 0px solid white;
+    background-color: white;
+    display: inline-block;
+    position: relative;
+}
+
+#w2ui-alert-dialog .w2ui-alert-dialog-body-block img {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 8px;
+}
+
+#w2ui-alert-dialog .w2ui-alert-dialog-body-block p {
+    width: 85%;
+    height: inherit;
+    font-size: 13px;
+    float: left;
+    text-align: left;
+    margin: 5px 0px 15px 10px;
+    padding: 0px 0px 3px 5px;
+    max-height:300px;
+    overflow-y:auto;
+}
+
+#w2ui-alert-dialog .w2ui-alert-dialog-buttons button {
+    margin: 0px 15px 15px 15px;
+}
+
+#w2ui-alert-dialog button {
+    width: 35%;
+    height: 36px;
+    background-color: #1d79d3;
+    color: #FFFFFF;
+    border: solid 1px #075fb5;
+    border-radius: 2px;
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+#w2ui-alert-dialog button:nth-child(2) {
+    float: left;
+    color: #FFFFFF;
+    background-color: #794DF6;
+    margin-left: 25px
+}
+
+#w2ui-alert-dialog button:nth-child(1) {
+    float: right;
+    color: #4A4A4A;
+    background-color: #FFFFFF;
+    border: 1px solid #979797;
+    border-radius: 2px;
+    margin-right: 25px
+}
+
+/*
+#w2ui-alert-dialog button:hover {width:80px;height:30px;background-color:#075fb5; color:#FFFFFF; border:solid 1px  #003399; border-radius:2px; font-weight:600;}
+#w2ui-alert-dialog button:active{ background-color:#054d94; color: #FFFFFF; border:solid 1px #003399;  border-radius:2px; font-weight:600;}
+ */
+#w2ui-alert-dialog > div {
+    margin-top: 5px;
+}
+
+.w2ui-alert-icon-error, .w2ui-alert-icon-alert {
+    background-image: url("../img/alert_info.png");
+    background-repeat: no-repeat;
+    background-size: auto;
+    width:20px;
+    height:20px;
+    float:left;
+}
+
+
+.pinsign-connected-message-container {
+    height: 60px;
+    padding:10px 15px 10px 15px;
+    border: 1px solid #CCCCCC;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+
+.pinsign-connected-message {
+    font-size: 13px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.pinsign-connected-message-detail-container {
+    float: right;
+    position: relative;
+    right: 10px;
+    bottom: -0px;
+}
+.pinsign-connected-message-detail-icon {
+    background-image:url("../img/pinsign-connected-detail.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width:11px;
+    height:11px;
+    float:left;
+}
+.pinsign-connected-message-detail-message {
+    color: #2484E4;
+    font-family: "Apple SD Gothic Neo";
+    font-size: 13px;
+    float:left;
+}
+
+.pinsign-connected-complete-container {
+    height: 160px;
+    border: 1px solid #D2D2D2;
+    background-color: #FFFFFF;
+    text-align:center;
+    padding:30px 10px 10px 10px;
+}
+.pinsign-connected-complete-icon {
+    height:45px;
+    width:100%;
+}
+.pinsign-connected-complete-message {
+    font-size:15px;
+    color:#1F60A2;
+    font-weight: bolder;
+    margin:10px;
+}
+.pinsign-connected-complete-message3 {
+    margin:10px;
+}
+.pinsign-connected-complete-message3 span {
+    width: 15px;
+    height: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+
+
+

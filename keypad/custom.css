@@ -1,0 +1,4 @@
+#pinsign-pinpad-mobile-container{/*padding:10px 0;*/border-top:1px solid #d5d5d5;background:#fff;}
+#pinsign-pinpad-mobile-container .pinsign-pinpad-number{height:67px;border:none;font-size:29px;line-height:64px;color:#333;}
+#pinsign-pinpad-mobile-container .pinsign-pinpad-command-button{width:50%;height:63px;background:#1490ef;font-size:19px;line-height:63px;}
+#pinsign-pinpad-mobile-container .pinpad-clear{background:#e5e8ec url(/images/arrw_left_05.png) center no-repeat;background-size:21px;}

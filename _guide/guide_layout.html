@@ -1,0 +1,70 @@
+  <!DOCTYPE html>
+  <html lang="ko">
+  <head>
+    <meta charset="utf-8" />
+    <title>교육급여바우처 레이아웃</title>
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="format-detection" content="telephone=no" />
+    <meta name="mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <link rel="stylesheet" type="text/css" href="../css/common.css" />
+    <link rel="stylesheet" type="text/css" href="../css/minireset.css" />
+    <script src="../js/jquery-3.7.1.min.js"></script>
+  </head>
+  <body>
+    <div class="header_wrap" id="header"></div>
+    <div class="sub_wrap">
+      <div class="sub_nav_wrap">
+        <div class="sub_nav">
+          <nav class="location">
+            <ul>
+              <li class="home">
+                <a href="UI-JTEF-01-02.html"><img src="../images/common/icon_sub_home.png" alt="메인페이지" /></a>
+              </li>
+              <li class="loca_1depth">바우처 신청</li>
+              <li class="loca_2depth">온라인 신청</li>
+            </ul>
+          </nav>
+          <div class="action_wrap">
+            <ul>
+              <li>
+                <a href="#"><img src="../images/common/icon_sub_print.png" alt="인쇄하기" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="../images/common/icon_facebook.png" alt="페이스북" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="../images/common/icon_twitter.png" alt="트위터" /></a>
+              </li>
+              <li>
+                <a href="#"><img src="../images/common/icon_blog.png" alt="네이버 블로그" /></a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="sub_content">
+        <div class="inner">
+        </div>
+      </div>
+      <!-- 희망봇 플로팅버튼 영역 숨김
+      <div class="floating_wrap">
+        <a href="javascript:void(0);"class="float_btn" target="_blank" title="새 창 열기"><img src="../images/common/icon_bot.png" alt="희망봇" /></a>
+        <a href="javascript:void(0);"class="float_btn top_btn"><img src="../images/common/icon_top.png" alt="맨 위로 이동" /></a>
+      </div>
+      -->
+    </div>
+    <div id="footer"></div>
+    <script>
+      $(function() {
+        $('#header').load('../include/header.html');
+        $('#footer').load('../include/footer.html');
+      });
+    </script>
+  </body>
+  <script src="../js/common.js"></script>
+  </html>

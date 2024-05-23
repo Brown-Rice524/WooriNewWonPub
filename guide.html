@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="utf-8">
+	<title></title>
+	<link rel="stylesheet" href="./_guide.css">
+	<style>
+		/* User style */
+		nav a {letter-spacing: -1px;}
+		.design, .date {text-align: center;}
+		.del{text-decoration:line-through;color:#999 !important;}
+		.del td{background-color:#eee !important;}
+		.del:hover *,
+		.del a{color:#999 !important;text-decoration:none !important;}
+		.line td{border-top:2px solid #ddd !important;}
+		.emb{display:block;color:red;}
+		.bg td{background-color:#eee !important;color:#aaa !important;}
+		.bg td a{color:#aaa !important;}
+		.lineth td {text-decoration:line-through;color:#c6c8c4 !important;}
+		.lineth td a{color:#c6c8c4 !important;}
+		.lineth td.nolineth{text-decoration:inherit !important;color:#c6c8c4 !important;}
+	</style>
+	<script src="./_guide.js"></script>
+	<script>
+		/* User script(setting) */
+		$(function() {
+			$('body').feWorksheet({
+				// Options
+			});
+		});
+	</script>
+</head>
+<body>
+	<header><h1><em>교육급여바우처</em>, Front-end Web developer Worksheet</h1></header>
+	<!-- noticeWrap -->
+	<section class="noticeWrap">
+		<h2>Notice</h2>
+		<ul>
+			<li>Undone: HTML 작업중</li>
+			<li>Done: HTML 작업완료</li>
+			<li>Modify: 완료 후 HTML 수정</li>
+			<li>Delete: 완료 후 SB 삭제</li>
+		</ul>
+	</section>
+	<!-- //noticeWrap -->
+	<a href="#" class="topLk">TOP</a>
+	<!-- filterWrap -->
+	<section class="filterWrap">
+		<h2>Task Key/Filter</h2>
+		<form action="/">
+			<fieldset>
+				<legend>Filter option(It'll be automatically applied)</legend>
+				<label><input type="checkbox" value="all">All</label>
+				<label><input type="checkbox"><b>0</b><i>Undone</i></label>
+				<label><input type="checkbox"><b>1</b><i>Done</i></label>
+				<label><input type="checkbox"><b>2</b><i>Modify</i></label>			
+				<label><input type="checkbox"><b>3</b><i>Delete</i></label>
+			</fieldset>
+		</form>
+	</section>
+	<!-- //filterWrap -->
+	<!-- Worksheet -->
+	<section>
+		<h2>Worksheet: Front</h2>	
+		<h3>스타일가이드</h3>
+		<table>
+			<!-- caption : 경로입력 -->
+			<caption>./_guide</caption>
+			<thead>
+				<tr>
+					<th scope="col" class="menuDepth">Depth1</th>
+					<th scope="col" class="menuDepth">Depth2</th>
+					<th scope="col" class="menuDepth">Depth3</th>
+					<th scope="col" class="menuDepth">Depth4</th>
+					<th scope="col" class="menuDepth">Depth5</th>
+					<th scope="col" class="fileName">File Name/ID</th>
+					<th scope="col" class="dueDate">Done/Modify</th>
+					<th scope="col" class="people">People</th>
+					<th scope="col" class="issueMemo">Issue/Memo</th>
+					<th scope="col" class="checkTask">Task</th>
+				</tr>
+			</thead>
+			<tbody>
+				<tr>
+					<td class="menuDepth">Guide</td>
+					<td class="menuDepth">contents</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">guide_contents.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">button</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">guide_button.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">form</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">guide_form.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">list</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">guide_list.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">layout</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">guide_layout.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"><!--span class="emb">* noti <br>- text<br>- text</span--></td>
+					<td class="checkTask">1</td>
+				</tr>
+				<tr>
+					<td class="menuDepth"></td>
+					<td class="menuDepth">popup</td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="menuDepth"></td>
+					<td class="fileName">guide_popup.html</td>
+					<td class="date"></td>
+					<td class="people"></td>
+					<td class="issueMemo"></td>
+					<td class="checkTask">1</td>
+				</tr>
+			</tbody>
+		</table>
+
+	</section>
+	<!-- //Worksheet -->
+</body>
+</html>

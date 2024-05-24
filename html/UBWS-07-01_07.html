@@ -27,30 +27,13 @@
     <div class="content">
       <div class="cont-box">
         <div class="icon-box">
-          <div class="ico-bank020"></div>
+          <div class="ico-img ico-bank020"></div>
+          <div class="ico-arrow arrow-right_gray"></div>
+          <div class="ico-img ico-bank020"></div>
         </div>
         <div class="tit-box">
           <h3>김우리 님에게<br><span class="h3 txt-primary">100,000원</span>을 보낼까요?</h3>
-        </div>
-        <div class="agree-box">
-          <form action="#none" class="form-input">
-            <fieldset>
-              <legend>입출금 계좌 입력 폼그룹</legend>
-              <div class="inp-box type04">
-                <button type="button" class="btn-sel h5_dense" data-view="bank-box">
-                  <div class="btn-bank_account02">
-                    <div class="ico_bank ico-bank020"></div>
-                    <div class="info_bank ta-l">
-                      <div class="recent-tit h5">우리은행 계좌<span class="h5">에서</span></div>
-                    </div>
-                  </div>
-                </button>
-                <div class="inp-bank">
-                  <div class="b2 txt-default04">생활비 통장 1002-035-640567</div>
-                </div>
-              </div>
-            </fieldset>
-          </form>
+          <div class="tit-caption b2 txt-default04">우리 000-0000-0000 계좌로 보냅니다.</div>
         </div>
         <div class="data-box">
           <div class="list-box bg">
@@ -61,45 +44,36 @@
               </colgroup>
               <tbody>
                 <tr>
-                  <th class="th-row ta-l b2">수수료</th>
-                  <td class="td-row ta-r b2">면제</td>
+                  <th class="th-row ta-l b1">수수료</th>
+                  <td class="td-row ta-r b1">면제</td>
                 </tr>
                 <tr>
-                  <th class="th-row ta-l b2">받는 통장 표기</th>
-                  <td class="td-row ta-r b2">홍길동</td>
+                  <th class="th-row ta-l b1">받는 통장 표기</th>
+                  <td class="td-row ta-r b1">홍길동</td>
                 </tr>
                 <tr>
-                  <th class="th-row ta-l b2">내 통장 표기</th>
-                  <td class="td-row ta-r b2">김우리</td>
+                  <th class="th-row ta-l b1">내 통장 표기</th>
+                  <td class="td-row ta-r b1">김우리</td>
                 </tr>
               </tbody>
             </table>
           </div>
         </div>
         <div class="btn-box-fixed">
-          <div class="btn-box ta-c">
-            <button type="button" class="btn-link-xsm b2 btn-sel" style="margin-bottom: 20px;" data-view="precaution-box">이체 유의사항</button>
-            <!-- 이체유의사항 안내창 -->
-            <div class="precaution-box toggle-box">
-              <div class="toggle ta-l">
-                  <div class="tit-box">
-                      <strong class="h4">이체시 유의사항을 확인해 주세요</strong>
-                      <button type="button" class="btn-close">닫기</button>
-                  </div>
-                  <div class="list-box">
-                    <ul class="list-type01">
-                        <li>다른 은행(금융기관 가상계좌 포함)으로의 이체는 상대 은행의 서비스 시간에 따라 제한 될 수 있습니다.</li>
-                        <li>다른 은행 계좌로 이체 시 실제 내 통장 표기 내용에는 입금 은행명(2자리)이 추가됩니다.</li>
-                    </ul>
-                  </div>
-              </div>
-            </div>
-            <!-- //이체유의사항 안내창-->
-            <button type="button" class="btn-lg btn-p h5">확인</button>
+          <div class="btn-box sym ta-c">
+            <div class="btn-box-caption b2 txt-primary">인증서 비밀번호 입력 없이 바로 이체됩니다.</div>
+            <button type="button" class="btn-lg btn-s h5">추가이체</button>
             <!-- 기본 -->
-            <button type="button" class="btn-lg btn-p h5 on" style="display: none;">확인</button>
+            <button type="button" class="btn-lg btn-s h5 on" style="display: none;">추가이체</button>
             <!-- 선택 -->
-            <button type="button" class="btn-lg btn-p h5 disable" style="display: none;">확인</button>
+            <button type="button" class="btn-lg btn-s h5 disable" style="display: none;">추가이체</button>
+            <!-- 비활성화 -->
+
+            <button type="button" class="btn-lg btn-p h5">이체하기</button>
+            <!-- 기본 -->
+            <button type="button" class="btn-lg btn-p h5 on" style="display: none;">이체하기</button>
+            <!-- 선택 -->
+            <button type="button" class="btn-lg btn-p h5 disable" style="display: none;">이체하기</button>
             <!-- 비활성화 -->
           </div>
         </div>
